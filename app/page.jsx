@@ -14,6 +14,8 @@ export default function Home() {
                 <SettingLogo />
                 <HamburgerLogo />
             </div>
+
+            <h1 className='text-7xl font-thin'>Instagram FONTS</h1>
         </main>
     )
 }
