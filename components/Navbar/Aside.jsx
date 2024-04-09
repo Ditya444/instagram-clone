@@ -33,7 +33,7 @@ export default function Aside() {
                             className='group rounded-lg transition-all duration-300 hover:bg-zinc-200'
                         >
                             <Link
-                                className={`${path === link.url ? 'font-bold' : ''} flex items-center gap-3 text-ellipsis whitespace-nowrap break-words p-3 transition-all duration-75 group-active:scale-95 group-active:opacity-50`}
+                                className={`${path === link.url ? 'font-bold' : 'font-normal'} flex items-center gap-3 text-ellipsis whitespace-nowrap break-words p-3 transition-all duration-75 group-active:scale-95 group-active:opacity-50`}
                                 href={link.url}
                             >
                                 <span className='inline-block'>
