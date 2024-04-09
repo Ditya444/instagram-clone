@@ -17,8 +17,8 @@ export const InstagramLogo = ({ className = '' }) => {
                 fill-rule='evenodd'
             ></path>
         </svg>
-    )
-}
+    );
+};
 
 export const HomeLogo = ({ className = '' }) => {
     return (
@@ -35,10 +35,10 @@ export const HomeLogo = ({ className = '' }) => {
             <title>Beranda</title>
             <path d='M22 23h-6.001a1 1 0 0 1-1-1v-5.455a2.997 2.997 0 1 0-5.993 0V22a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V11.543a1.002 1.002 0 0 1 .31-.724l10-9.543a1.001 1.001 0 0 1 1.38 0l10 9.543a1.002 1.002 0 0 1 .31.724V22a1 1 0 0 1-1 1Z'></path>
         </svg>
-    )
-}
+    );
+};
 
-export const HamburgerLogo = ({ className = '' }) => {
+export const HamburgerLogo = ({ className = '', stroke = 2 }) => {
     return (
         <svg
             aria-label='Pengaturan'
@@ -56,7 +56,7 @@ export const HamburgerLogo = ({ className = '' }) => {
                 stroke='currentColor'
                 stroke-linecap='round'
                 stroke-linejoin='round'
-                stroke-width='2'
+                stroke-width={stroke}
                 x1='3'
                 x2='21'
                 y1='4'
@@ -67,7 +67,7 @@ export const HamburgerLogo = ({ className = '' }) => {
                 stroke='currentColor'
                 stroke-linecap='round'
                 stroke-linejoin='round'
-                stroke-width='2'
+                stroke-width={stroke}
                 x1='3'
                 x2='21'
                 y1='12'
@@ -78,15 +78,15 @@ export const HamburgerLogo = ({ className = '' }) => {
                 stroke='currentColor'
                 stroke-linecap='round'
                 stroke-linejoin='round'
-                stroke-width='2'
+                stroke-width={stroke}
                 x1='3'
                 x2='21'
                 y1='20'
                 y2='20'
             ></line>
         </svg>
-    )
-}
+    );
+};
 
 export const SettingLogo = ({ className = '' }) => {
     return (
@@ -119,5 +119,5 @@ export const SettingLogo = ({ className = '' }) => {
                 stroke-width='2'
             ></path>
         </svg>
-    )
-}
+    );
+};

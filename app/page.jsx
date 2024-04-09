@@ -3,19 +3,17 @@ import {
     HomeLogo,
     InstagramLogo,
     SettingLogo,
-} from '@/components/Icons'
+} from '@/components/Icons';
 
 export default function Home() {
     return (
         <main className='min-h-screen w-full'>
-            <div className='h-screen w-full flex items-center justify-center'>
-                <InstagramLogo className='h-14 w-40' />
-                <HomeLogo />
-                <SettingLogo />
-                <HamburgerLogo />
-            </div>
-
-            <h1 className='text-7xl font-thin'>Instagram FONTS</h1>
+            <section className='container ml-auto'>
+                <div className='h-screen bg-blue-50'></div>
+                <div className='h-screen bg-blue-500'></div>
+                <div className='h-screen bg-blue-600'></div>
+                <div className='h-screen bg-blue-700'></div>
+            </section>
         </main>
-    )
+    );
 }
